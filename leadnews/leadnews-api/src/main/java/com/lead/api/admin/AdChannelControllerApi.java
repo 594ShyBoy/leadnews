@@ -25,7 +25,7 @@ public interface AdChannelControllerApi {
     public ResponseResult findByNameAndPage(ChannelDto dto);
 
     /**
-     * 频道管理
+     * 频道保存
      * @param adChannel
      * @return
      */

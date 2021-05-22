@@ -13,9 +13,11 @@ import org.springframework.web.bind.annotation.*;
  * @date 2021/5/21 0:15
  * @Version 1.0
  * @Author ShyBoy
+ * Request URL: http://localhost:8080/service_9001/api/v1/channel/list
  */
 @RestController
 @RequestMapping("/api/v1/channel")
+@CrossOrigin
 public class AdChannelController implements AdChannelControllerApi {
 
     @Autowired

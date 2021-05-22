@@ -87,6 +87,8 @@ public class AdChannelServiceImpl extends ServiceImpl<AdChannelMapper, AdChannel
             return ResponseResult.errorResult(AppHttpCodeEnum.PARAM_INVALID,"频道有效无法删除");
         }
 
+        //int a = 1/0;
+
         //2. 执行删除
         removeById(id);
         return ResponseResult.okResult(AppHttpCodeEnum.SUCCESS);

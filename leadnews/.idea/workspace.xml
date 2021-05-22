@@ -40,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/leadnews-utils/src/main/java/com/lead/utils/threadlocal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/leadnews-admin/src/main/java/com/lead/admin/config" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
@@ -48,6 +48,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-admin\src\main\java\com\lead\admin\config" />
       <recent name="D:\java\ProjectLibrary\leadnews\leadnews-utils\src\main\java\com\lead\utils\threadlocal" />
       <recent name="D:\java\ProjectLibrary\leadnews\leadnews-utils\src\main\java\com\lead\utils\common" />
       <recent name="D:\java\ProjectLibrary\leadnews\leadnews-model\src\main\java\com\lead\model\common\dtos" />
@@ -115,7 +116,11 @@
       <updated>1621471207834</updated>
       <workItem from="1621471209230" duration="3103000" />
       <workItem from="1621475712882" duration="4163000" />
-      <workItem from="1621520673878" duration="14073000" />
+      <workItem from="1621520673878" duration="14724000" />
+      <workItem from="1621555359427" duration="4118000" />
+      <workItem from="1621576064198" duration="44000" />
+      <workItem from="1621576201619" duration="7326000" />
+      <workItem from="1621609756178" duration="7052000" />
     </task>
     <servers />
   </component>
