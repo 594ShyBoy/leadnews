@@ -10,13 +10,13 @@
         <module name="leadnews-api" />
         <module name="leadnews-common" />
         <module name="leadnews-utils" />
-        <module name="leadnews-admin-gateway" />
         <module name="leadnews-model" />
+        <module name="leadnews-admin-gateway" />
         <module name="leadnews-admin" />
+        <module name="leadnews-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="leadnews-user" target="1.8" />
       <module name="leadnews-wemedia" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -27,6 +27,7 @@
       <module name="leadnews-api" options="-parameters" />
       <module name="leadnews-common" options="-parameters" />
       <module name="leadnews-model" options="-parameters" />
+      <module name="leadnews-user" options="-parameters" />
       <module name="leadnews-utils" options="-parameters" />
     </option>
   </component>
