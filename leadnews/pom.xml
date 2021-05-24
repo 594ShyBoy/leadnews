@@ -16,6 +16,8 @@
         <module>leadnews-admin</module>
         <module>leadnews-admin-gateway</module>
         <module>leadnews-user</module>
+        <module>leadnews-wemedia</module>
+        <module>leadnews-article</module>
     </modules>
 
     <!-- 继承Spring boot工程 -->
