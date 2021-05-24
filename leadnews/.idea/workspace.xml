@@ -40,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/leadnews-admin/src/main/java/com/lead/admin/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/leadnews-admin-gateway/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
@@ -48,20 +48,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-admin-gateway\src\main\resources" />
+      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-admin\src\main\resources" />
       <recent name="D:\java\ProjectLibrary\leadnews\leadnews-admin\src\main\java\com\lead\admin\config" />
       <recent name="D:\java\ProjectLibrary\leadnews\leadnews-utils\src\main\java\com\lead\utils\threadlocal" />
       <recent name="D:\java\ProjectLibrary\leadnews\leadnews-utils\src\main\java\com\lead\utils\common" />
-      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-model\src\main\java\com\lead\model\common\dtos" />
-      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-common\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lead.admin.gateway.utils" />
       <recent name="com.lead.model.common.enums" />
       <recent name="com.lead.model.common.constants" />
       <recent name="com.lead.password.test" />
       <recent name="com.lead.aliyun.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="ResponseResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lead.model.common.dtos.ResponseResult" />
       <module name="leadnews-model" />
@@ -99,8 +100,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="leadnews-admin-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lead.admin.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lead.admin.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.AdminApplication" />
         <item itemvalue="Application.ResponseResult" />
       </list>
@@ -121,6 +136,10 @@
       <workItem from="1621576064198" duration="44000" />
       <workItem from="1621576201619" duration="7326000" />
       <workItem from="1621609756178" duration="7052000" />
+      <workItem from="1621840251982" duration="82000" />
+      <workItem from="1621842118918" duration="1432000" />
+      <workItem from="1621846474471" duration="2142000" />
+      <workItem from="1621850993525" duration="1305000" />
     </task>
     <servers />
   </component>

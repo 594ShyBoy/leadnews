@@ -10,14 +10,20 @@
         <module name="leadnews-api" />
         <module name="leadnews-common" />
         <module name="leadnews-utils" />
+        <module name="leadnews-admin-gateway" />
         <module name="leadnews-model" />
         <module name="leadnews-admin" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="leadnews-user" target="1.8" />
+      <module name="leadnews-wemedia" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="leadnews-admin" options="-parameters" />
+      <module name="leadnews-admin-gateway" options="-parameters" />
       <module name="leadnews-api" options="-parameters" />
       <module name="leadnews-common" options="-parameters" />
       <module name="leadnews-model" options="-parameters" />

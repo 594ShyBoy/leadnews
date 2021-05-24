@@ -14,6 +14,7 @@
         <module>leadnews-model</module>
         <module>leadnews-utils</module>
         <module>leadnews-admin</module>
+        <module>leadnews-admin-gateway</module>
     </modules>
 
     <!-- 继承Spring boot工程 -->
