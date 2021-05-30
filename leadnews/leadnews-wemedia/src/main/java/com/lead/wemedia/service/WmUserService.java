@@ -1,6 +1,8 @@
 package com.lead.wemedia.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.lead.model.common.dtos.ResponseResult;
+import com.lead.model.media.dto.WmUserDto;
 import com.lead.model.media.pojo.WmUser;
 
 /**
@@ -10,4 +12,10 @@ import com.lead.model.media.pojo.WmUser;
  * @Author ShyBoy
  */
 public interface WmUserService extends IService<WmUser> {
+    /**
+     * 登录
+     * @param dto
+     * @return
+     */
+    public ResponseResult login(WmUserDto dto);
 }

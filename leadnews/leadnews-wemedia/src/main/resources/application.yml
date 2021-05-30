@@ -5,6 +5,9 @@ spring:
     nacos:
       discovery:
         server-addr: 120.27.128.89:8848
+    alibaba:
+      seata:
+        tx-service-group: ${spring.application.name}_tx_group
   application:
     name: leadnews-wemedia
   datasource:
@@ -18,4 +21,5 @@ mybatis-plus:
   # 设置别名包扫描路径，通过该属性可以给包中的类注册别名
   type-aliases-package: com.lead.model.media.pojo
 
-
+#图片访问ip
+fdfs.url: http://120.27.128.89/

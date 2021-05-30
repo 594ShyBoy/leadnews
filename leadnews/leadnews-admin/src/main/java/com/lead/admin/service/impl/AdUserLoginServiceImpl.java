@@ -46,7 +46,9 @@ public class AdUserLoginServiceImpl extends ServiceImpl<AdUserLoginMapper, AdUse
             System.out.println(list);
             //用户存在且唯一
             AdUser adUser = list.get(0);
-            String pswd = DigestUtils.md5DigestAsHex((dto.getName() + adUser.getSalt()).getBytes());
+            System.out.println(adUser);
+            String pswd = DigestUtils.md5DigestAsHex((dto.getPassword() + adUser.getSalt()).getBytes());
+            System.out.println(pswd);
             if (adUser.getPassword().equals(pswd)){
                 //密码正确
                 Map<String,Object> map = Maps.newHashMap();

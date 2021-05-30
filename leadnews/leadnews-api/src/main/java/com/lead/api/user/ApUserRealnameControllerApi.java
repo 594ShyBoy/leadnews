@@ -22,4 +22,17 @@ public interface ApUserRealnameControllerApi {
     @ApiOperation("app端用户认证列表查询")
     public ResponseResult loadListByStatus(AuthDto dto);
 
+    /**
+     * 审核通过
+     * @param dto
+     * @return
+     */
+    public ResponseResult authPass(AuthDto dto) ;
+
+    /**
+     * 审核失败
+     * @param dto
+     * @return
+     */
+    public ResponseResult authFail(AuthDto dto);
 }

@@ -10,6 +10,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -21,7 +25,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\java\repositorys\repository_heima-leannews" />
+        <option name="localRepository" value="D:\java\maven_repository" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.3" />
         <option name="userSettingsFile" value="D:\java\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
@@ -40,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/leadnews-wemedia/src/main/java/com/lead/wemedia" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/leadnews-common/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
@@ -48,45 +52,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-wemedia\src\main\java\com\lead\wemedia" />
+      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-common\src\main\resources" />
       <recent name="D:\java\ProjectLibrary\leadnews\leadnews-wemedia\src\main\resources" />
-      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-user\src\main\java\com\lead\user" />
-      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-user\src\main\java\com\lead\user\config" />
-      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-user\src\main\java\com\lead\user\comtroller\v1" />
+      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-user\src\main\resources" />
+      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-article\src\main\resources" />
+      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-article\src\main\java\com\lead\article\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lead.admin.gateway.utils" />
-      <recent name="com.lead.model.common.enums" />
-      <recent name="com.lead.model.common.constants" />
-      <recent name="com.lead.password.test" />
-      <recent name="com.lead.aliyun.test" />
+      <recent name="com.lead.wmmedia.gateway.utils" />
+      <recent name="com.lead.wmmedia.gateway.filter" />
+      <recent name="" />
+      <recent name="com.lead.common.fastdfs" />
+      <recent name="com.lead.wemedia.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.WemediaApplication">
-    <configuration name="ResponseResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lead.model.common.dtos.ResponseResult" />
-      <module name="leadnews-model" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lead.model.common.dtos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.WmGatewayApplication">
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="leadnews-admin" />
       <extension name="coverage">
@@ -100,15 +80,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="leadnews-admin-gateway" />
+    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="leadnews-article" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lead.admin.gateway.*" />
+          <option name="PATTERN" value="com.lead.article.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lead.admin.gateway.GatewayApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lead.article.ArticleApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,13 +119,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WmGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="leadnews-wemedia-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lead.wmmedia.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lead.wmmedia.gateway.WmGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.WmGatewayApplication" />
         <item itemvalue="Spring Boot.WemediaApplication" />
         <item itemvalue="Spring Boot.UserApplication" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.ArticleApplication" />
         <item itemvalue="Spring Boot.AdminApplication" />
-        <item itemvalue="Application.ResponseResult" />
       </list>
     </recent_temporary>
   </component>
@@ -167,11 +160,29 @@
       <workItem from="1621840251982" duration="82000" />
       <workItem from="1621842118918" duration="1432000" />
       <workItem from="1621846474471" duration="2142000" />
-      <workItem from="1621850993525" duration="5951000" />
+      <workItem from="1621850993525" duration="8458000" />
+      <workItem from="1621863991163" duration="11249000" />
+      <workItem from="1621900845595" duration="613000" />
+      <workItem from="1621950409787" duration="1825000" />
+      <workItem from="1622037968876" duration="3745000" />
+      <workItem from="1622188200868" duration="613000" />
+      <workItem from="1622211422705" duration="7316000" />
+      <workItem from="1622255259642" duration="31000" />
+      <workItem from="1622255304234" duration="1557000" />
+      <workItem from="1622256979731" duration="51000" />
+      <workItem from="1622257049929" duration="164000" />
+      <workItem from="1622257423698" duration="3274000" />
+      <workItem from="1622261288598" duration="934000" />
+      <workItem from="1622266363468" duration="16143000" />
+      <workItem from="1622290871752" duration="12671000" />
+      <workItem from="1622339336311" duration="1712000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
 </project>

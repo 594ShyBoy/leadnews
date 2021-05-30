@@ -7,6 +7,9 @@ spring:
     nacos:
       discovery:
         server-addr: 120.27.128.89:8848
+    alibaba:
+      seata:
+        tx-service-group: ${spring.application.name}_tx_group
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3307/leadnews_user?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC

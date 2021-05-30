@@ -16,7 +16,7 @@ public class AuthDto extends PageRequestDto {
     @ApiModelProperty("用户id")
     private Integer id;
     //驳回的信息
-    @ApiModelProperty("驳回的信息")
+    @ApiModelProperty("拒绝的原因")
     private String msg;
     //状态
     @ApiModelProperty("用户状态")

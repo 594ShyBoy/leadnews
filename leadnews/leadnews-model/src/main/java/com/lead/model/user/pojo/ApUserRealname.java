@@ -4,20 +4,22 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
- * @ClassName ApUserRealname
- * @date 2021/5/24 18:34
- * @Version 1.0
- * @Author ShyBoy
+ * <p>
+ * APP实名认证信息表
+ * </p>
+ *
+ * @author itheima
  */
 @Data
 @TableName("ap_user_realname")
-public class ApUserRealname {
+public class ApUserRealname implements Serializable {
+
     private static final long serialVersionUID = 1L;
 
     /**
@@ -36,7 +38,6 @@ public class ApUserRealname {
      * 用户名称
      */
     @TableField("name")
-    @ApiModelProperty(required = true)
     private String name;
 
     /**
@@ -102,4 +103,6 @@ public class ApUserRealname {
      */
     @TableField("updated_time")
     private Date updatedTime;
+
+
 }
