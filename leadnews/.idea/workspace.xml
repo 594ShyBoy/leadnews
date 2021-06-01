@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/leadnews-common/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/leadnews-wemedia-gateway" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
@@ -52,11 +52,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-common\src\main\resources" />
-      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-wemedia\src\main\resources" />
-      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-user\src\main\resources" />
-      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-article\src\main\resources" />
-      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-article\src\main\java\com\lead\article\config" />
+      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-wemedia-gateway" />
+      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-article" />
+      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-wemedia" />
+      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-user" />
+      <recent name="D:\java\ProjectLibrary\leadnews\leadnews-seata" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lead.wmmedia.gateway.utils" />
@@ -66,7 +66,18 @@
       <recent name="com.lead.wemedia.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.WmGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.WemediaApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="leadnews-admin" />
       <extension name="coverage">
@@ -134,8 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.WmGatewayApplication" />
         <item itemvalue="Spring Boot.WemediaApplication" />
+        <item itemvalue="Spring Boot.WmGatewayApplication" />
         <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.ArticleApplication" />
         <item itemvalue="Spring Boot.AdminApplication" />
@@ -176,6 +187,13 @@
       <workItem from="1622266363468" duration="16143000" />
       <workItem from="1622290871752" duration="12671000" />
       <workItem from="1622339336311" duration="1712000" />
+      <workItem from="1622463764984" duration="383000" />
+      <workItem from="1622470021381" duration="1648000" />
+      <workItem from="1622474846621" duration="2660000" />
+      <workItem from="1622509465537" duration="1000" />
+      <workItem from="1622514783640" duration="681000" />
+      <workItem from="1622517100112" duration="187000" />
+      <workItem from="1622519752799" duration="84000" />
     </task>
     <servers />
   </component>
